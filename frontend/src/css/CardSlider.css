@@ -1,0 +1,70 @@
+
+.content-cardsider{
+  background: url("../images/fondo1.jpg") black no-repeat center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.container h1 {
+  color: aliceblue;
+  font-weight: 600;
+  
+}
+.card-list .card-item {
+  color: white;
+  width: 400px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.card-list .card-item .cancha-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 3px solid white;
+  padding: 4px;
+  object-fit: cover;
+}
+
+.card-list .card-item .cancha-nombre {
+  font-size: 1.15rem;
+  color: white;
+  font-weight: 500;
+}
+
+.card-list .card-item .message-button {
+  font-size: 1.25rem;
+  padding: 5px 25px;
+  color: rgb(12, 12, 12);
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background: rgb(241, 228, 228);
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+
+.card-list .card-item .message-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  color: white;
+}
+
+.swiper {
+  padding: 2rem;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}

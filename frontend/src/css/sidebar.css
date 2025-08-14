@@ -1,0 +1,88 @@
+
+.content-sidebar {
+  position: relative;
+  width: 280px;
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.content-sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #1b252e;
+  border-right: 1px solid #ddd;
+  height: 100%;
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #f8f5f5;
+}
+
+.menu-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-item {
+  padding: 10px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  color: #bcb8b8;
+  text-decoration: none;
+  color: inherit; /* opcional, para que no se ponga azul */
+}
+
+.menu-item:hover {
+  background-color: #63646544;
+  color: white;
+}
+
+.menu-item::before {
+  content: '';
+  margin-right: 8px;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.menu-item.active::before {
+  content: '⚽';
+  opacity: 1;
+}
+
+.menu-item.active {
+  background-color: #4f5a65;
+  color: white;
+  font-weight: bold;
+}
+
+.usuario-sesion{
+  color: rgba(247, 247, 247, 0.5);
+  text-align: center;
+
+}
+
+.menu-item.logout {
+  font-weight: bold;
+  cursor: pointer;
+  margin: auto;
+}
+
+.menu-section-title {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #666;
+  padding-left: 0.5rem;
+}
+
+.divider {
+  margin: 0.30rem 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
